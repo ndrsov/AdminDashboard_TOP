@@ -18,3 +18,15 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+.small-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
