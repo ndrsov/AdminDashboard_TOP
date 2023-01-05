@@ -8,188 +8,190 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="sidebar">
-      <div class="logo"><span class="logo-icon"></span> Dashboard</div>
-      <nav>
+    <div class="container">
+      <div class="rightbar">
+        <div class="logo"><span class="logo-icon"></span> Dashboard</div>
+        <nav>
+          <ul>
+            <li><span class="home-icon"></span>Home</li>
+            <li><span class="profile-icon"></span>Profile</li>
+            <li><span class="messages-icon"></span>Messages</li>
+            <li><span class="history-icon"></span>History</li>
+            <li><span class="tasks-icon"></span>Tasks</li>
+            <li><span class="communities-icon"></span>Communities</li>
+          </ul>
+        </nav>
         <ul>
-          <li><span class="home-icon"></span>Home</li>
-          <li><span class="profile-icon"></span>Profile</li>
-          <li><span class="messages-icon"></span>Messages</li>
-          <li><span class="history-icon"></span>History</li>
-          <li><span class="tasks-icon"></span>Tasks</li>
-          <li><span class="communities-icon"></span>Communities</li>
+          <li><span class="settings-icon"></span>Settings</li>
+          <li><span class="support-icon"></span>Support</li>
+          <li><span class="privacy-icon"></span>Privacy</li>
         </ul>
-      </nav>
-      <ul>
-        <li><span class="settings-icon"></span>Settings</li>
-        <li><span class="support-icon"></span>Support</li>
-        <li><span class="privacy-icon"></span>Privacy</li>
-      </ul>
+      </div>
+      <div class="leftbar">
+        <div class="top-bar">
+          <span class="search-icon"></span>
+          <input type="text" name="search" id="serach-bar" />
+          <span class="notification-icon"></span>
+          <img
+            src="/assets/avatar-user.jpeg"
+            alt="User Avatar"
+            class="small-avatar"
+          />
+          <span>Andres Soria</span>
+        </div>
+        <div class="user-toolbox">
+          <img src="/assets/avatar-user.jpeg" alt="Avatar" class="avatar" />
+          <small>Hi there,</small>
+          <h1 class="user-name">Andres Soria (@ndrsov)</h1>
+          <button class="btn-toolbox">New</button>
+          <button class="btn-toolbox">Upload</button>
+          <button class="btn-toolbox">Share</button>
+        </div>
+        <section class="projects">
+          <h2 class="title">Your Projects</h2>
+          <div class="projects-container">
+            <div class="project-card">
+              <h3>Super Cool Project</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Obcaecati possimus deserunt aliquid nobis, odio esse.
+              </p>
+              <div class="card-icons">
+                <span class="favorite-icon"></span>
+                <span class="watch-icon"></span>
+                <span class="share-icon"></span>
+              </div>
+            </div>
+            <div class="project-card">
+              <h3>Less Cool Project</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
+                dolore laboriosam iure asperiores necessitatibus ad fuga?
+              </p>
+              <div class="card-icons">
+                <span class="favorite-icon"></span>
+                <span class="watch-icon"></span>
+                <span class="share-icon"></span>
+              </div>
+            </div>
+            <div class="project-card">
+              <h3>Impossible App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                aut soluta quas repellendus commodi tempore inventore in!
+              </p>
+              <div class="card-icons">
+                <span class="favorite-icon"></span>
+                <span class="watch-icon"></span>
+                <span class="share-icon"></span>
+              </div>
+            </div>
+            <div class="project-card">
+              <h3>EAsy Peasy App</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex
+                consectetur sint cum voluptate!
+              </p>
+              <div class="card-icons">
+                <span class="favorite-icon"></span>
+                <span class="watch-icon"></span>
+                <span class="share-icon"></span>
+              </div>
+            </div>
+            <div class="project-card">
+              <h3>Ad Blocker</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                libero ducimus eaque aliquam accusamus.
+              </p>
+              <div class="card-icons">
+                <span class="favorite-icon"></span>
+                <span class="watch-icon"></span>
+                <span class="share-icon"></span>
+              </div>
+            </div>
+            <div class="project-card">
+              <h3>Money Maker</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci error itaque sapiente, veniam aperiam eos.
+              </p>
+              <div class="card-icons">
+                <span class="favorite-icon"></span>
+                <span class="watch-icon"></span>
+                <span class="share-icon"></span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="announcements">
+          <h2 class="title">Announcements</h2>
+          <div class="side-block">
+            <div class="announcement">
+              <h4>Site Maintenance</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Accusamus a et architecto modi!
+              </p>
+            </div>
+            <div class="announcement">
+              <h4>Community Share Day</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Aliquid expedita explicabo dicta suscipit!
+              </p>
+            </div>
+            <div class="announcement">
+              <h4>Updated Privacy Policy</h4>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut
+                doloremque ducimus eaque dicta asperiores.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="trending">
+          <h2 class="title">Trending</h2>
+          <div class="side-block">
+            <div class="random-user">
+              <img
+                src="/assets/random-user-avatar/1.jpg"
+                class="small-avatar"
+                alt="User avatar"
+              />
+              <p>@tegan</p>
+              <span>World Peace Builder</span>
+            </div>
+            <div class="random-user">
+              <img
+                src="/assets/random-user-avatar/2.jpg"
+                class="small-avatar"
+                alt="User avatar"
+              />
+              <p>@morgan</p>
+              <span>Super Cool Project</span>
+            </div>
+            <div class="random-user">
+              <img
+                src="/assets/random-user-avatar/3.jpg"
+                class="small-avatar"
+                alt="User avatar"
+              />
+              <p>@kendall</p>
+              <span>Life Changing App</span>
+            </div>
+            <div class="random-user">
+              <img
+                src="/assets/random-user-avatar/5.jpg"
+                class="small-avatar"
+                alt="User avatar"
+              />
+              <p>@alex</p>
+              <span>No Traffic Maker</span>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
-    <main class="container">
-      <div class="top-bar">
-        <span class="search-icon"></span>
-        <input type="text" name="search" id="serach-bar" />
-        <span class="notification-icon"></span>
-        <img
-          src="/assets/avatar-user.jpeg"
-          alt="User Avatar"
-          class="small-avatar"
-        />
-        <span>Andres Soria</span>
-      </div>
-      <div class="user-toolbox">
-        <img src="/assets/avatar-user.jpeg" alt="Avatar" class="avatar" />
-        <small>Hi there,</small>
-        <h1 class="user-name">Andres Soria (@ndrsov)</h1>
-        <button class="btn-toolbox">New</button>
-        <button class="btn-toolbox">Upload</button>
-        <button class="btn-toolbox">Share</button>
-      </div>
-      <section class="projects">
-        <h2 class="title">Your Projects</h2>
-        <div class="projects-container">
-          <div class="project-card">
-            <h3>Super Cool Project</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-              possimus deserunt aliquid nobis, odio esse.
-            </p>
-            <div class="card-icons">
-              <span class="favorite-icon"></span>
-              <span class="watch-icon"></span>
-              <span class="share-icon"></span>
-            </div>
-          </div>
-          <div class="project-card">
-            <h3>Less Cool Project</h3>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
-              dolore laboriosam iure asperiores necessitatibus ad fuga?
-            </p>
-            <div class="card-icons">
-              <span class="favorite-icon"></span>
-              <span class="watch-icon"></span>
-              <span class="share-icon"></span>
-            </div>
-          </div>
-          <div class="project-card">
-            <h3>Impossible App</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-              aut soluta quas repellendus commodi tempore inventore in!
-            </p>
-            <div class="card-icons">
-              <span class="favorite-icon"></span>
-              <span class="watch-icon"></span>
-              <span class="share-icon"></span>
-            </div>
-          </div>
-          <div class="project-card">
-            <h3>EAsy Peasy App</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex
-              consectetur sint cum voluptate!
-            </p>
-            <div class="card-icons">
-              <span class="favorite-icon"></span>
-              <span class="watch-icon"></span>
-              <span class="share-icon"></span>
-            </div>
-          </div>
-          <div class="project-card">
-            <h3>Ad Blocker</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-              libero ducimus eaque aliquam accusamus.
-            </p>
-            <div class="card-icons">
-              <span class="favorite-icon"></span>
-              <span class="watch-icon"></span>
-              <span class="share-icon"></span>
-            </div>
-          </div>
-          <div class="project-card">
-            <h3>Money Maker</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-              error itaque sapiente, veniam aperiam eos.
-            </p>
-            <div class="card-icons">
-              <span class="favorite-icon"></span>
-              <span class="watch-icon"></span>
-              <span class="share-icon"></span>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="announcements">
-        <h2 class="title">Announcements</h2>
-        <div class="side-block">
-          <div class="announcement">
-            <h4>Site Maintenance</h4>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Accusamus a et architecto modi!
-            </p>
-          </div>
-          <div class="announcement">
-            <h4>Community Share Day</h4>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid
-              expedita explicabo dicta suscipit!
-            </p>
-          </div>
-          <div class="announcement">
-            <h4>Updated Privacy Policy</h4>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut
-              doloremque ducimus eaque dicta asperiores.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="trending">
-        <h2 class="title">Trending</h2>
-        <div class="side-block">
-          <div class="random-user">
-            <img
-              src="/assets/random-user-avatar/1.jpg"
-              class="small-avatar"
-              alt="User avatar"
-            />
-            <p>@tegan</p>
-            <span>World Peace Builder</span>
-          </div>
-          <div class="random-user">
-            <img
-              src="/assets/random-user-avatar/2.jpg"
-              class="small-avatar"
-              alt="User avatar"
-            />
-            <p>@morgan</p>
-            <span>Super Cool Project</span>
-          </div>
-          <div class="random-user">
-            <img
-              src="/assets/random-user-avatar/3.jpg"
-              class="small-avatar"
-              alt="User avatar"
-            />
-            <p>@kendall</p>
-            <span>Life Changing App</span>
-          </div>
-          <div class="random-user">
-            <img
-              src="/assets/random-user-avatar/5.jpg"
-              class="small-avatar"
-              alt="User avatar"
-            />
-            <p>@alex</p>
-            <span>No Traffic Maker</span>
-          </div>
-        </div>
-      </section>
-    </main>
   </body>
 </html>
