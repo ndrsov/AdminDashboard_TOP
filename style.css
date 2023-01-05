@@ -6,6 +6,15 @@
   padding: 0;
 }
 
+:root {
+  --main-bg-color: #f0f9ff;
+  --alt-bg-color: #fff;
+  --main-color: #60a5fa;
+  --accent-color: #14b8a6;
+  --main-text: #111827;
+  --faded-text: #6b7280;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
