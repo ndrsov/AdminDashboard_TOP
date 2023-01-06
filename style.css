@@ -30,6 +30,21 @@ body {
 
 .leftbar {
   background-color: var(--main-bg-color);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.top-menu {
+  grid-area: 1/1/2/3;
+}
+.projects {
+  grid-area: 2/1/4/2;
+}
+.announcements {
+  grid-area: 2/2/3/3;
+}
+.trending {
+  grid-area: 3/2/4/3;
 }
 
 .small-avatar {
