@@ -27,6 +27,23 @@ body {
 
 .rightbar {
   background-color: var(--main-color);
+  color: #fff;
+  padding: 2em;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 2.5em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 4rem;
+}
+
+.logo-icon {
+  width: 60px;
+  height: 60px;
+  background: url("/assets/logo-crown.svg") no-repeat;
 }
 
 .leftbar {
