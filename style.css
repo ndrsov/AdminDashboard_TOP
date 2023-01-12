@@ -46,6 +46,20 @@ body {
   background: url("/assets/logo-crown.svg") no-repeat;
 }
 
+nav {
+  font-size: 1.75em;
+  font-weight: bold;
+  line-height: 1.7;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+.user-nav {
+  margin-bottom: 4rem;
+}
+
 .leftbar {
   background-color: var(--main-bg-color);
   display: grid;
