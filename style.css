@@ -139,6 +139,22 @@ li > img {
   color: var(--main-text);
 }
 
+.user-toolbox {
+  background-color: var(--alt-bg-color);
+  box-shadow: 0 5px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3em 2em;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  color: var(--main-text);
+  gap: 1.5em;
+}
+
 .projects {
   grid-area: 2/1/4/2;
 }
