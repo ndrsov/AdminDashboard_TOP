@@ -54,12 +54,24 @@ nav {
 
 nav ul li {
   list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+}
+
+nav ul li:hover {
+  transform: scale(0.99);
+  color: var(--accent-color);
+}
+
+li > img {
+  width: 1em;
+  height: 1em;
 }
 
 .user-nav {
   margin-bottom: 4rem;
 }
-
 .leftbar {
   background-color: var(--main-bg-color);
   display: grid;
