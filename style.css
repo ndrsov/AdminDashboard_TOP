@@ -154,6 +154,13 @@ li > img {
   color: var(--main-text);
   gap: 1.5em;
 }
+
+.user small {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--faded-text);
+}
+
 .user-btns {
   display: flex;
   gap: 2em;
