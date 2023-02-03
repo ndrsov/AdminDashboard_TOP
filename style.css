@@ -247,6 +247,15 @@ li > img {
 
 .announcements {
   grid-area: 2/2/3/3;
+  margin: 1.5rem 1.5rem 1.5rem 0;
+}
+
+.side-block {
+  background-color: var(--alt-bg-color);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  margin-top: 1.5rem;
 }
 .trending {
   grid-area: 3/2/4/3;
