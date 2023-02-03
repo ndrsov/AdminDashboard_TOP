@@ -188,7 +188,16 @@ li > img {
 
 .projects {
   grid-area: 2/1/4/2;
+  padding: 0 1.5rem;
 }
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
 .announcements {
   grid-area: 2/2/3/3;
 }
