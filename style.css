@@ -231,6 +231,10 @@ li > img {
   height: 30px;
 }
 
+.icon:hover {
+  transform: scale(1.03);
+}
+
 .favorite {
   background: url("/assets/favorite.svg");
 }
