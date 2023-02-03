@@ -213,6 +213,11 @@ li > img {
   margin-bottom: 0.5rem;
 }
 
+.project-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
 .project-card p {
   color: var(--faded-text);
   font-size: 1.15rem;
@@ -256,6 +261,16 @@ li > img {
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   margin-top: 1.5rem;
+}
+
+.announcement h4 {
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+}
+
+.announcement p {
+  color: var(--faded-text);
+  font-size: 1rem;
 }
 .trending {
   grid-area: 3/2/4/3;
