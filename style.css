@@ -198,6 +198,13 @@ li > img {
   margin-top: 1rem;
 }
 
+.project-card {
+  background-color: var(--alt-bg-color);
+  padding: 2rem;
+  border-radius: 10px;
+  border-left: solid var(--accent-color) 10px;
+}
+
 .card-icons {
   display: flex;
   justify-content: end;
