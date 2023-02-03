@@ -198,6 +198,27 @@ li > img {
   margin-top: 1rem;
 }
 
+.card-icons {
+  display: flex;
+  justify-content: end;
+  gap: 1em;
+}
+.icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+.favorite {
+  background: url("/assets/favorite.svg");
+}
+.watch {
+  background: url("/assets/watch.svg");
+}
+.share {
+  background: url("/assets/share.svg");
+}
+
 .announcements {
   grid-area: 2/2/3/3;
 }
