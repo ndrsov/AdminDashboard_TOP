@@ -193,12 +193,14 @@ li > img {
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 1.5rem;
   margin-top: 1.5rem;
 }
 
 .project-card {
+  height: 225px;
+  position: relative;
   background-color: var(--alt-bg-color);
   padding: 1.5rem;
   border-radius: 10px;
@@ -217,8 +219,10 @@ li > img {
 }
 
 .card-icons {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
   display: flex;
-  justify-content: end;
   gap: 1.5em;
 }
 .icon {
