@@ -188,27 +188,38 @@ li > img {
 
 .projects {
   grid-area: 2/1/4/2;
-  padding: 0 1.5rem;
+  margin: 1.5rem;
 }
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .project-card {
   background-color: var(--alt-bg-color);
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 10px;
   border-left: solid var(--accent-color) 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-card p {
+  color: var(--faded-text);
+  font-size: 1.15rem;
 }
 
 .card-icons {
   display: flex;
   justify-content: end;
-  gap: 1em;
+  gap: 1.5em;
 }
 .icon {
   display: inline-block;
