@@ -21,14 +21,16 @@ body {
 
 .container {
   display: grid;
-  height: 100vh;
-  grid-template-columns: 1fr 4fr;
+  background-color: var(--main-bg-color);
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
 }
 
 .leftbar {
   background-color: var(--main-color);
   color: #fff;
   padding: 2em;
+  grid-area: 1 / 1 / 7 / 2;
 }
 
 .logo {
@@ -72,14 +74,9 @@ li > img {
 .user-nav {
   margin-bottom: 4rem;
 }
-.rightbar {
-  background-color: var(--main-bg-color);
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-}
 
 .top-menu {
-  grid-area: 1/1/2/3;
+  grid-area: 1 / 2 / 2 / 6;
 }
 
 .search-bar {
@@ -187,8 +184,8 @@ li > img {
 }
 
 .projects {
-  grid-area: 2/1/4/2;
   margin: 1.5rem;
+  grid-area: 2 / 2 / 6 / 5;
 }
 
 .projects-container {
@@ -251,7 +248,7 @@ li > img {
 }
 
 .announcements {
-  grid-area: 2/2/3/3;
+  grid-area: 2 / 5 / 4 / 6;
   margin: 1.5rem 1.5rem 1.5rem 0;
 }
 
@@ -288,7 +285,7 @@ li > img {
   font-size: 1rem;
 }
 .trending {
-  grid-area: 3/2/4/3;
+  grid-area: 4 / 5 / 6 / 6;
   margin: 1.5rem 1.5rem 1.5rem 0;
 }
 
