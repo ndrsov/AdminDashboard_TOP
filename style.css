@@ -295,6 +295,28 @@ li > img {
 .random-user {
   display: flex;
   align-items: center;
+  margin: 1.5rem 0;
+}
+
+.random-user:first-child {
+  margin: 0;
+}
+.random-user:last-child {
+  margin: 0;
+}
+
+.user-info {
+  margin-left: 1.5rem;
+}
+
+.user-info p {
+  font-weight: 400;
+}
+
+.user-info span {
+  display: block;
+  margin-top: 0.2rem;
+  color: var(--faded-text);
 }
 
 .avatar {
