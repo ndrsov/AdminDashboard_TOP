@@ -321,3 +321,32 @@ li > img {
   width: 90px;
   height: 90px;
 }
+
+@media (max-width: 1500px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto 1fr 1fr;
+  }
+
+  .leftbar {
+    grid-area: 1 / 1 / 6 / 2;
+  }
+  .top-menu {
+    grid-area: 1 / 2 / 2 / 6;
+  }
+  .projects {
+    grid-area: 2 / 2 / 3 / 6;
+    margin-top: 1.5rem;
+    margin-right: 3rem;
+  }
+  .announcements {
+    grid-area: 3 / 2 / 4 / 4;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .trending {
+    grid-area: 3 / 4 / 4/ 6;
+    margin-top: 0;
+  }
+}
