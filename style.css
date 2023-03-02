@@ -382,8 +382,6 @@ li > img {
     margin-bottom: 2rem;
   }
 
-  /* this is a test  */
-
   .search-bar {
     padding: 1em;
   }
@@ -414,5 +412,57 @@ li > img {
   }
   .user-name {
     font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .container {
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  .leftbar {
+    padding: 0;
+  }
+
+  .logo span:nth-child(2) {
+    display: none;
+  }
+
+  .logo-icon {
+    width: 40px;
+    height: 40px;
+    margin-top: 0.5em;
+  }
+
+  nav {
+    display: none;
+  }
+  .search-user span {
+    display: none;
+  }
+  .user {
+    display: none;
+  }
+
+  .user-btns {
+    gap: 2em;
+  }
+  .user-toolbox {
+    justify-content: center;
+  }
+
+  .projects {
+    margin: 1em;
+  }
+
+  .announcements {
+    grid-area: 3/2/3/6;
+    margin: 1em;
+  }
+  .trending {
+    grid-area: 4/2/4/6;
+    margin: 1em;
   }
 }
